@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct MyGrowthDiaryApp: App {
+    private var opData = OperationData()
+    
+    init() {
+        Thread.sleep(forTimeInterval: 1.0)
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(opData)
         }
     }
 }

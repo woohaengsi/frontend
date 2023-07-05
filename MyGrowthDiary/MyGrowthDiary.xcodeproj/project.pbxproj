@@ -11,6 +11,11 @@
 		D4EEFFE02A55C0510076C7C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFDF2A55C0510076C7C6 /* ContentView.swift */; };
 		D4EEFFE22A55C0530076C7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EEFFE12A55C0530076C7C6 /* Assets.xcassets */; };
 		D4EEFFE52A55C0530076C7C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EEFFE42A55C0530076C7C6 /* Preview Assets.xcassets */; };
+		D4EEFFED2A55C17D0076C7C6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EEFFEC2A55C17C0076C7C6 /* Launch Screen.storyboard */; };
+		D4EEFFF22A55C40A0076C7C6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFF12A55C40A0076C7C6 /* LoginView.swift */; };
+		D4EEFFF82A55C4EF0076C7C6 /* OperationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFF72A55C4EF0076C7C6 /* OperationData.swift */; };
+		D4EEFFFC2A55C5290076C7C6 /* CurrentViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFFB2A55C5290076C7C6 /* CurrentViewStatus.swift */; };
+		D4EEFFFE2A55C63F0076C7C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFFD2A55C63F0076C7C6 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		D4EEFFDF2A55C0510076C7C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D4EEFFE12A55C0530076C7C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4EEFFE42A55C0530076C7C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4EEFFEB2A55C1040076C7C6 /* MyGrowthDiary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyGrowthDiary.entitlements; sourceTree = "<group>"; };
+		D4EEFFEC2A55C17C0076C7C6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D4EEFFF12A55C40A0076C7C6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D4EEFFF72A55C4EF0076C7C6 /* OperationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationData.swift; sourceTree = "<group>"; };
+		D4EEFFFB2A55C5290076C7C6 /* CurrentViewStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewStatus.swift; sourceTree = "<group>"; };
+		D4EEFFFD2A55C63F0076C7C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +62,13 @@
 		D4EEFFDC2A55C0510076C7C6 /* MyGrowthDiary */ = {
 			isa = PBXGroup;
 			children = (
-				D4EEFFDD2A55C0510076C7C6 /* MyGrowthDiaryApp.swift */,
-				D4EEFFDF2A55C0510076C7C6 /* ContentView.swift */,
-				D4EEFFE12A55C0530076C7C6 /* Assets.xcassets */,
+				D4EEFFF32A55C41F0076C7C6 /* Core */,
+				D4EEFFF42A55C4340076C7C6 /* Resources */,
+				D4EEFFF92A55C5060076C7C6 /* Enums */,
+				D4EEFFF52A55C4BE0076C7C6 /* ViewModels */,
+				D4EEFFEE2A55C3C80076C7C6 /* Views */,
 				D4EEFFE32A55C0530076C7C6 /* Preview Content */,
+				D4EEFFEB2A55C1040076C7C6 /* MyGrowthDiary.entitlements */,
 			);
 			path = MyGrowthDiary;
 			sourceTree = "<group>";
@@ -65,6 +79,81 @@
 				D4EEFFE42A55C0530076C7C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4EEFFEE2A55C3C80076C7C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEFFDF2A55C0510076C7C6 /* ContentView.swift */,
+				D4EEFFF02A55C3D90076C7C6 /* HomeView */,
+				D4EEFFEF2A55C3CF0076C7C6 /* SignInView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4EEFFEF2A55C3CF0076C7C6 /* SignInView */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEFFF12A55C40A0076C7C6 /* LoginView.swift */,
+			);
+			path = SignInView;
+			sourceTree = "<group>";
+		};
+		D4EEFFF02A55C3D90076C7C6 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEFFFD2A55C63F0076C7C6 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		D4EEFFF32A55C41F0076C7C6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEFFDD2A55C0510076C7C6 /* MyGrowthDiaryApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D4EEFFF42A55C4340076C7C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEFFEC2A55C17C0076C7C6 /* Launch Screen.storyboard */,
+				D4EEFFE12A55C0530076C7C6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4EEFFF52A55C4BE0076C7C6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEFFF62A55C4CC0076C7C6 /* LoginStatus */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D4EEFFF62A55C4CC0076C7C6 /* LoginStatus */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEFFF72A55C4EF0076C7C6 /* OperationData.swift */,
+			);
+			path = LoginStatus;
+			sourceTree = "<group>";
+		};
+		D4EEFFF92A55C5060076C7C6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEFFFA2A55C5110076C7C6 /* LoginStatus */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D4EEFFFA2A55C5110076C7C6 /* LoginStatus */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEFFFB2A55C5290076C7C6 /* CurrentViewStatus.swift */,
+			);
+			path = LoginStatus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EEFFED2A55C17D0076C7C6 /* Launch Screen.storyboard in Resources */,
 				D4EEFFE52A55C0530076C7C6 /* Preview Assets.xcassets in Resources */,
 				D4EEFFE22A55C0530076C7C6 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EEFFF22A55C40A0076C7C6 /* LoginView.swift in Sources */,
+				D4EEFFFC2A55C5290076C7C6 /* CurrentViewStatus.swift in Sources */,
+				D4EEFFF82A55C4EF0076C7C6 /* OperationData.swift in Sources */,
+				D4EEFFFE2A55C63F0076C7C6 /* HomeView.swift in Sources */,
 				D4EEFFE02A55C0510076C7C6 /* ContentView.swift in Sources */,
 				D4EEFFDE2A55C0510076C7C6 /* MyGrowthDiaryApp.swift in Sources */,
 			);
@@ -195,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyGrowthDiary/MyGrowthDiary.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyGrowthDiary/Preview Content\"";
@@ -273,8 +368,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +379,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.greathoaxer.MyGrowthDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyGrowthDiary/MyGrowthDiary.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyGrowthDiary/Preview Content\"";
@@ -302,8 +403,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +414,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.greathoaxer.MyGrowthDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
