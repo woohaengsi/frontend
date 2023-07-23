@@ -10,6 +10,7 @@ import AuthenticationServices
 
 struct LoginView: View {
     @EnvironmentObject var opData: OperationData
+    let signInWithAppleDelegate = SignInWithAppleDelegate()
     
     var body: some View {
         GeometryReader { geometry in
@@ -27,13 +28,13 @@ struct LoginView: View {
                 VStack {
                     Group {
                         Button(action: {
-                            print("Apple")
+                            performSignInWithApple()
                         }, label: {
                             Text("Apple")
                                 .frame(width: 300, height: 44)
+                                .border(.black)
                         })
                         
-                        .border(.black)
                         Button(action: {
                             print("Kakao")
                         }, label: {
@@ -49,9 +50,22 @@ struct LoginView: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
         }
-        
-        
-        
+    }
+    private func performSignInWithApple(){
+        let request = ASAuthorizationAppleIDProvider().createRequest()
+        request.requestedScopes = [.fullName, .email]
+        let controller = ASAuthorizationController(authorizationRequests: [request])
+        controller.delegate = signInWithAppleDelegate
+        controller.performRequests()
+        signInWithAppleDelegate.completion = { result in
+            if (result == "success") {
+                DispatchQueue.main.async {
+                    opData.checkLoginStatus()
+                }
+            } else {
+               print("안됨")
+            }
+        }
     }
 }
 
@@ -60,3 +74,4 @@ struct LoginView_Previews: PreviewProvider {
         LoginView()
     }
 }
+

@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4EE00012A56CAB00076C7C6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00002A56CAB00076C7C6 /* OnboardingView.swift */; };
+		D4EE00062A5B14360076C7C6 /* SignInWithAppleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00052A5B14360076C7C6 /* SignInWithAppleDelegate.swift */; };
+		D4EE00092A5C62B80076C7C6 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00082A5C62B80076C7C6 /* OnboardingPageView.swift */; };
+		D4EE000B2A5C636F0076C7C6 /* OnboardingPageEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE000A2A5C636F0076C7C6 /* OnboardingPageEndView.swift */; };
+		D4EE00542A6D8BA90076C7C6 /* TabItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00532A6D8BA90076C7C6 /* TabItemData.swift */; };
+		D4EE00572A6D8C3E0076C7C6 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00562A6D8C3E0076C7C6 /* TabItemView.swift */; };
+		D4EE00592A6D8D020076C7C6 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00582A6D8D020076C7C6 /* CustomTabView.swift */; };
+		D4EE005B2A6D8D1E0076C7C6 /* TabBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE005A2A6D8D1E0076C7C6 /* TabBottomView.swift */; };
+		D4EE005E2A6D8D720076C7C6 /* TabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE005D2A6D8D720076C7C6 /* TabType.swift */; };
+		D4EE00632A6D8D950076C7C6 /* Navone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE005F2A6D8D950076C7C6 /* Navone.swift */; };
+		D4EE00642A6D8D950076C7C6 /* TestThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00602A6D8D950076C7C6 /* TestThree.swift */; };
+		D4EE00652A6D8D950076C7C6 /* TestFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00612A6D8D950076C7C6 /* TestFour.swift */; };
+		D4EE00662A6D8D950076C7C6 /* TestTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00622A6D8D950076C7C6 /* TestTwo.swift */; };
+		D4EE006B2A6D8E030076C7C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00682A6D8E030076C7C6 /* HomeView.swift */; };
+		D4EE006C2A6D8E030076C7C6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE00692A6D8E030076C7C6 /* CustomButton.swift */; };
+		D4EE006D2A6D8E030076C7C6 /* HomeBookOpenedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE006A2A6D8E030076C7C6 /* HomeBookOpenedView.swift */; };
+		D4EE007B2A6D93D60076C7C6 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE007A2A6D93D60076C7C6 /* BackButton.swift */; };
 		D4EEFFDE2A55C0510076C7C6 /* MyGrowthDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFDD2A55C0510076C7C6 /* MyGrowthDiaryApp.swift */; };
 		D4EEFFE02A55C0510076C7C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFDF2A55C0510076C7C6 /* ContentView.swift */; };
 		D4EEFFE22A55C0530076C7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EEFFE12A55C0530076C7C6 /* Assets.xcassets */; };
@@ -15,10 +32,28 @@
 		D4EEFFF22A55C40A0076C7C6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFF12A55C40A0076C7C6 /* LoginView.swift */; };
 		D4EEFFF82A55C4EF0076C7C6 /* OperationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFF72A55C4EF0076C7C6 /* OperationData.swift */; };
 		D4EEFFFC2A55C5290076C7C6 /* CurrentViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFFB2A55C5290076C7C6 /* CurrentViewStatus.swift */; };
-		D4EEFFFE2A55C63F0076C7C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFFD2A55C63F0076C7C6 /* HomeView.swift */; };
+		D4EEFFFE2A55C63F0076C7C6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEFFFD2A55C63F0076C7C6 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4EE00002A56CAB00076C7C6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		D4EE00052A5B14360076C7C6 /* SignInWithAppleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleDelegate.swift; sourceTree = "<group>"; };
+		D4EE00072A5B15BE0076C7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D4EE00082A5C62B80076C7C6 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		D4EE000A2A5C636F0076C7C6 /* OnboardingPageEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageEndView.swift; sourceTree = "<group>"; };
+		D4EE00532A6D8BA90076C7C6 /* TabItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemData.swift; sourceTree = "<group>"; };
+		D4EE00562A6D8C3E0076C7C6 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		D4EE00582A6D8D020076C7C6 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		D4EE005A2A6D8D1E0076C7C6 /* TabBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBottomView.swift; sourceTree = "<group>"; };
+		D4EE005D2A6D8D720076C7C6 /* TabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabType.swift; sourceTree = "<group>"; };
+		D4EE005F2A6D8D950076C7C6 /* Navone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navone.swift; sourceTree = "<group>"; };
+		D4EE00602A6D8D950076C7C6 /* TestThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThree.swift; sourceTree = "<group>"; };
+		D4EE00612A6D8D950076C7C6 /* TestFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFour.swift; sourceTree = "<group>"; };
+		D4EE00622A6D8D950076C7C6 /* TestTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTwo.swift; sourceTree = "<group>"; };
+		D4EE00682A6D8E030076C7C6 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D4EE00692A6D8E030076C7C6 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D4EE006A2A6D8E030076C7C6 /* HomeBookOpenedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBookOpenedView.swift; sourceTree = "<group>"; };
+		D4EE007A2A6D93D60076C7C6 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		D4EEFFDA2A55C0510076C7C6 /* MyGrowthDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGrowthDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEFFDD2A55C0510076C7C6 /* MyGrowthDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGrowthDiaryApp.swift; sourceTree = "<group>"; };
 		D4EEFFDF2A55C0510076C7C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,7 +64,7 @@
 		D4EEFFF12A55C40A0076C7C6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D4EEFFF72A55C4EF0076C7C6 /* OperationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationData.swift; sourceTree = "<group>"; };
 		D4EEFFFB2A55C5290076C7C6 /* CurrentViewStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewStatus.swift; sourceTree = "<group>"; };
-		D4EEFFFD2A55C63F0076C7C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D4EEFFFD2A55C63F0076C7C6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +78,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4EE00042A5B141E0076C7C6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE00052A5B14360076C7C6 /* SignInWithAppleDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		D4EE00522A6D8B900076C7C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE00532A6D8BA90076C7C6 /* TabItemData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4EE00552A6D8C2B0076C7C6 /* CustomTabView */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE00562A6D8C3E0076C7C6 /* TabItemView.swift */,
+				D4EE005A2A6D8D1E0076C7C6 /* TabBottomView.swift */,
+				D4EE00582A6D8D020076C7C6 /* CustomTabView.swift */,
+			);
+			path = CustomTabView;
+			sourceTree = "<group>";
+		};
+		D4EE005C2A6D8D620076C7C6 /* CustomTabTypes */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE005D2A6D8D720076C7C6 /* TabType.swift */,
+			);
+			path = CustomTabTypes;
+			sourceTree = "<group>";
+		};
+		D4EE00672A6D8DDF0076C7C6 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE006A2A6D8E030076C7C6 /* HomeBookOpenedView.swift */,
+				D4EE00682A6D8E030076C7C6 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		D4EE007C2A6D9AC20076C7C6 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE007A2A6D93D60076C7C6 /* BackButton.swift */,
+				D4EE00692A6D8E030076C7C6 /* CustomButton.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
 		D4EEFFD12A55C0510076C7C6 = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +149,17 @@
 		D4EEFFDC2A55C0510076C7C6 /* MyGrowthDiary */ = {
 			isa = PBXGroup;
 			children = (
+				D4EE00072A5B15BE0076C7C6 /* Info.plist */,
+				D4EEFFEB2A55C1040076C7C6 /* MyGrowthDiary.entitlements */,
 				D4EEFFF32A55C41F0076C7C6 /* Core */,
-				D4EEFFF42A55C4340076C7C6 /* Resources */,
+				D4EE00042A5B141E0076C7C6 /* Delegate */,
 				D4EEFFF92A55C5060076C7C6 /* Enums */,
+				D4EE00522A6D8B900076C7C6 /* Models */,
+				D4EEFFE32A55C0530076C7C6 /* Preview Content */,
+				D4EEFFF42A55C4340076C7C6 /* Resources */,
+				D4EE007C2A6D9AC20076C7C6 /* Reusable */,
 				D4EEFFF52A55C4BE0076C7C6 /* ViewModels */,
 				D4EEFFEE2A55C3C80076C7C6 /* Views */,
-				D4EEFFE32A55C0530076C7C6 /* Preview Content */,
-				D4EEFFEB2A55C1040076C7C6 /* MyGrowthDiary.entitlements */,
 			);
 			path = MyGrowthDiary;
 			sourceTree = "<group>";
@@ -85,7 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				D4EEFFDF2A55C0510076C7C6 /* ContentView.swift */,
-				D4EEFFF02A55C3D90076C7C6 /* HomeView */,
+				D4EEFFF02A55C3D90076C7C6 /* MainView */,
+				D4EEFFFF2A56CA7A0076C7C6 /* OnboardingView */,
 				D4EEFFEF2A55C3CF0076C7C6 /* SignInView */,
 			);
 			path = Views;
@@ -99,12 +191,14 @@
 			path = SignInView;
 			sourceTree = "<group>";
 		};
-		D4EEFFF02A55C3D90076C7C6 /* HomeView */ = {
+		D4EEFFF02A55C3D90076C7C6 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
-				D4EEFFFD2A55C63F0076C7C6 /* HomeView.swift */,
+				D4EEFFFD2A55C63F0076C7C6 /* MainView.swift */,
+				D4EE00672A6D8DDF0076C7C6 /* HomeView */,
+				D4EE00552A6D8C2B0076C7C6 /* CustomTabView */,
 			);
-			path = HomeView;
+			path = MainView;
 			sourceTree = "<group>";
 		};
 		D4EEFFF32A55C41F0076C7C6 /* Core */ = {
@@ -118,6 +212,10 @@
 		D4EEFFF42A55C4340076C7C6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D4EE005F2A6D8D950076C7C6 /* Navone.swift */,
+				D4EE00612A6D8D950076C7C6 /* TestFour.swift */,
+				D4EE00602A6D8D950076C7C6 /* TestThree.swift */,
+				D4EE00622A6D8D950076C7C6 /* TestTwo.swift */,
 				D4EEFFEC2A55C17C0076C7C6 /* Launch Screen.storyboard */,
 				D4EEFFE12A55C0530076C7C6 /* Assets.xcassets */,
 			);
@@ -143,6 +241,7 @@
 		D4EEFFF92A55C5060076C7C6 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				D4EE005C2A6D8D620076C7C6 /* CustomTabTypes */,
 				D4EEFFFA2A55C5110076C7C6 /* LoginStatus */,
 			);
 			path = Enums;
@@ -154,6 +253,16 @@
 				D4EEFFFB2A55C5290076C7C6 /* CurrentViewStatus.swift */,
 			);
 			path = LoginStatus;
+			sourceTree = "<group>";
+		};
+		D4EEFFFF2A56CA7A0076C7C6 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE00002A56CAB00076C7C6 /* OnboardingView.swift */,
+				D4EE00082A5C62B80076C7C6 /* OnboardingPageView.swift */,
+				D4EE000A2A5C636F0076C7C6 /* OnboardingPageEndView.swift */,
+			);
+			path = OnboardingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,12 +336,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EE00542A6D8BA90076C7C6 /* TabItemData.swift in Sources */,
+				D4EE00092A5C62B80076C7C6 /* OnboardingPageView.swift in Sources */,
+				D4EE005E2A6D8D720076C7C6 /* TabType.swift in Sources */,
 				D4EEFFF22A55C40A0076C7C6 /* LoginView.swift in Sources */,
 				D4EEFFFC2A55C5290076C7C6 /* CurrentViewStatus.swift in Sources */,
+				D4EE006D2A6D8E030076C7C6 /* HomeBookOpenedView.swift in Sources */,
 				D4EEFFF82A55C4EF0076C7C6 /* OperationData.swift in Sources */,
-				D4EEFFFE2A55C63F0076C7C6 /* HomeView.swift in Sources */,
+				D4EE00592A6D8D020076C7C6 /* CustomTabView.swift in Sources */,
+				D4EEFFFE2A55C63F0076C7C6 /* MainView.swift in Sources */,
+				D4EE00062A5B14360076C7C6 /* SignInWithAppleDelegate.swift in Sources */,
 				D4EEFFE02A55C0510076C7C6 /* ContentView.swift in Sources */,
 				D4EEFFDE2A55C0510076C7C6 /* MyGrowthDiaryApp.swift in Sources */,
+				D4EE006C2A6D8E030076C7C6 /* CustomButton.swift in Sources */,
+				D4EE00572A6D8C3E0076C7C6 /* TabItemView.swift in Sources */,
+				D4EE000B2A5C636F0076C7C6 /* OnboardingPageEndView.swift in Sources */,
+				D4EE006B2A6D8E030076C7C6 /* HomeView.swift in Sources */,
+				D4EE00642A6D8D950076C7C6 /* TestThree.swift in Sources */,
+				D4EE00012A56CAB00076C7C6 /* OnboardingView.swift in Sources */,
+				D4EE00632A6D8D950076C7C6 /* Navone.swift in Sources */,
+				D4EE007B2A6D93D60076C7C6 /* BackButton.swift in Sources */,
+				D4EE005B2A6D8D1E0076C7C6 /* TabBottomView.swift in Sources */,
+				D4EE00662A6D8D950076C7C6 /* TestTwo.swift in Sources */,
+				D4EE00652A6D8D950076C7C6 /* TestFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +491,7 @@
 				DEVELOPMENT_TEAM = 378ZJRNNF8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyGrowthDiary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -400,6 +527,7 @@
 				DEVELOPMENT_TEAM = 378ZJRNNF8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyGrowthDiary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

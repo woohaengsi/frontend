@@ -9,5 +9,6 @@ import SwiftUI
 
 enum CurrentViewStatus:Int {
     case home
+    case onBoarding
     case signIn
 }

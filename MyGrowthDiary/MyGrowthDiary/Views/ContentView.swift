@@ -14,7 +14,10 @@ struct ContentView: View {
     var body: some View {
         switch(opData.currentView) {
         case .home:
-            HomeView()
+            MainView()
+                .environmentObject(opData)
+        case .onBoarding:
+            OnboardingView()
                 .environmentObject(opData)
         case .signIn:
             LoginView()

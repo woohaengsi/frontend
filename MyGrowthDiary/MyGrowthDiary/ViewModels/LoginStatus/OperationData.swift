@@ -6,26 +6,37 @@
 //
 
 import SwiftUI
+import AuthenticationServices
 
 class OperationData: ObservableObject {
     @Published var currentView: CurrentViewStatus
     
     init() {
-        //로그인 키가 있으면서 로그인 상태일 때
-        if (UserDefaults.standard.bool(forKey: "isLoggedIn")) {
-            self.currentView = .home
-        }
-        //key값이 없거나, 또는 false 일 때
-        else {
-            self.currentView = .signIn
-        }
+        self.currentView = .home
+//        if (UserDefaults.standard.bool(forKey: "isLoggedIn")) {
+//            if (UserDefaults.standard.bool(forKey: "isOnboarded")) {
+//                self.currentView = .home
+//            }
+//            else {
+//                self.currentView = .onBoarding
+//            }
+//        } else {
+//            self.currentView = .signIn
+//        }
     }
     
     func checkLoginStatus() {
         if (UserDefaults.standard.bool(forKey: "isLoggedIn")) {
-            self.currentView = .home
+            if (UserDefaults.standard.bool(forKey: "isOnboarded")) {
+                self.currentView = .home
+            }
+            else {
+                self.currentView = .onBoarding
+            }
         } else {
             self.currentView = .signIn
         }
     }
 }
+
+
